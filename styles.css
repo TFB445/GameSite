@@ -1,0 +1,47 @@
+/* Réinitialisa
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #afa8a8;
+    
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+}
+
+main {
+    text-align: left;
+    font-size: 15px;
+    
+}
+img{
+    float: right;
+    
+    height: 200px;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
