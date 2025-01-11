@@ -57,7 +57,7 @@ h4 {
     text-align: left;
     position: absolute;
     bottom:  150px; 
-    right:  100px;
+    right:  50px;
 }
 #contact-btn-2 {
     font-size: 35px;
@@ -68,7 +68,7 @@ h4 {
     text-align: left;
     position: absolute;
     bottom:  150px; 
-    right:  480px;
+    right:  400px;
 }
 #contact-btn-3 {
     font-size: 35px;
@@ -79,7 +79,7 @@ h4 {
     text-align: left;
     position: absolute;
     bottom:  150px; 
-    right:  880px;
+    right:  795px;
 }
 #contact-btn-4 {
     font-size: 35px;
@@ -90,7 +90,7 @@ h4 {
     text-align: left;
     position: absolute;
     bottom:  150px; 
-    right:  1270px;
+    right:  1230px;
 }
 #contact-btn-5{
     font-size: 35px;
@@ -101,7 +101,7 @@ h4 {
     text-align: left;
     position: absolute;
     bottom:  150px; 
-    right:  1660px;
+    right:  1630px;
 }
 
 main {
