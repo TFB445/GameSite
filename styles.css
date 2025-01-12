@@ -94,7 +94,7 @@ main {
 img{
     float: right;
     margin-top: 160px;
-    margin-right: 100px;
+    margin-right: 0px;
     
     height: 600px;
     width: 400px;
@@ -121,11 +121,11 @@ img{
 
 #imgegg{
     float: right;
-    margin-top: 0px;
-    margin-right: 100px;
-    
-    height: 571px;
-    width: 447px;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 286px;
+    width: 223px;
+    position:sticky;
 }
 
 
