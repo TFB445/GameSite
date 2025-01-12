@@ -1,8 +1,8 @@
-/* Réinitialisa
 /* Styles de base */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #263aec;
+    background-color: #404dc5;
     color: #f2f6f5;
 }
 
@@ -13,13 +13,25 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    
     padding: 5px 0;
 }
 
 h1 {
     
     text-align: center;
+}
+
+h2 {
+    
+    font-size: 45px;
+    font-size: 22px;
+    text-align: left;
+     
+    line-height: 30px;
+    position: absolute;
+    right: 550px;
+    top: 200px; 
+    left: 20px;
 }
 
 h3 {
@@ -34,6 +46,7 @@ h3 {
     width: 100%;
 
 }
+
 h4 {
 
     
@@ -54,10 +67,19 @@ button {
     text-align: left;
     color: #f8f6f6;
     background-color: #1c698c;
-    text-align: left;
     position: absolute;
     bottom:  125px; 
     right:  230px;
+}
+
+#buttonChalutier {
+    font-size: 22px;
+    text-decoration: none;
+    color: #f8f6f6;
+    background-color: #1c698c;
+    text-align: left;
+    bottom:  125px; 
+    margin-left: 10px;
 }
 
 main {
@@ -68,18 +90,7 @@ main {
     
     
 }
-h2 {
-    
-    font-size: 45px;
-    font-size: 22px;
-    text-align: left;
-     
-    line-height: 30px;
-    position: absolute;
-    right: 550px;
-    top: 200px; 
-    left: 20px;
-}
+
 img{
     float: right;
     margin-top: 160px;
@@ -88,22 +99,46 @@ img{
     height: 600px;
     width: 400px;
 }
+
 #img2{
     
     margin-top: 0px;
-    margin-right: px;
+    margin-right: 10px;
     
     height: 200px;
     width: 400px;
 }
 
-/* Footer */
+#logo {
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+    
+    height: 92px;
+    width: 123px;
+}
+
+
+#imgegg{
+    float: right;
+    margin-top: 0px;
+    margin-right: 100px;
+    
+    height: 571px;
+    width: 447px;
+}
+
+
+#link {
+    color: #00ffff;
+}
+
 footer {
     background-color: #1c698c;
     color: #fff;
     text-align: center;
     font-size: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0px;
     width: 100%;
