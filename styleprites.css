@@ -20,12 +20,17 @@ h1 {
     text-align: center;
 }
 
-#logo{
+h2 {
     
-    margin-top: -100px;
-    margin-left: 100 px;
-    height: 92px;
-    width: 123px;
+    font-size: 45px;
+    font-size: 22px;
+    text-align: left;
+     
+    line-height: 30px;
+    position: absolute;
+    right: 550px;
+    top: 200px; 
+    left: 20px;
 }
 
 h3 {
@@ -53,11 +58,8 @@ h4 {
 
 }
 
-#link {
-    color: #00FFFF;
-}
 
-#contact-btn-1 {
+button {
     font-size: 35px;
     text-decoration: none;
     text-align: left;
@@ -65,52 +67,8 @@ h4 {
     background-color: #1c698c;
     text-align: left;
     position: absolute;
-    bottom:  150px; 
-    right:  50px;
-}
-#contact-btn-2 {
-    font-size: 35px;
-    text-decoration: none;
-    text-align: left;
-    color: #f8f6f6;
-    background-color: #1c698c;
-    text-align: left;
-    position: absolute;
-    bottom:  150px; 
-    right:  400px;
-}
-#contact-btn-3 {
-    font-size: 35px;
-    text-decoration: none;
-    text-align: left;
-    color: #f8f6f6;
-    background-color: #1c698c;
-    text-align: left;
-    position: absolute;
-    bottom:  150px; 
-    right:  795px;
-}
-#contact-btn-4 {
-    font-size: 35px;
-    text-decoration: none;
-    text-align: left;
-    color: #f8f6f6;
-    background-color: #1c698c;
-    text-align: left;
-    position: absolute;
-    bottom:  150px; 
-    right:  1230px;
-}
-#contact-btn-5{
-    font-size: 35px;
-    text-decoration: none;
-    text-align: left;
-    color: #f8f6f6;
-    background-color: #1c698c;
-    text-align: left;
-    position: absolute;
-    bottom:  150px; 
-    right:  1630px;
+    bottom:  125px; 
+    right:  230px;
 }
 
 main {
@@ -126,30 +84,60 @@ h2 {
     font-size: 45px;
     font-size: 22px;
     text-align: left;
-     
     line-height: 30px;
     position: absolute;
     right: 550px;
     top: 200px; 
     left: 20px;
 }
+/*img{
+    float: right;
+    margin-top: 200px;
+    margin-right: 0px;
+    
+    height: 600px;
+    width: 400px;
+}
+    */
+
+#logo {
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+    
+    height: 92px;
+    width: 123px;
+}
 
 
-.image-row {
-    display: flex; 
-    justify-content: space-between; 
-    gap: 10px; 
+#imgegg{
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 286px;
+    width: 223px;
+    position:sticky;
+}
+
+#imgcheesebg{
+    text-align: left;
     position: absolute;
-    
-    top: 200px; 
-    
-  }
-  
-  .image-row img {
-    width: 18%; 
-    height: auto; 
-  }
+    margin-top: 45px;
+    margin-left: 50px;
+    height: 323px;
+    width: 400px;
+}
 
+#legenderight{
+    text-align: right;
+    color: #ababab;
+    margin-right: 75px;
+}
+#legendeleft{
+    text-align: left;
+    color: #ababab;
+    margin-left: 75px;
+}
 /* Footer */
 footer {
     background-color: #1c698c;
@@ -161,12 +149,22 @@ footer {
     left: 0px;
     width: 100%;
     padding: 20px 0;
-}
 
+}
+#imgegg{
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 286px;
+    width: 223px;
+    position:sticky;
+}
+#liens {
+    color: #00ffff;
+}
 
 #lienback {
     color: #00ffff;
     margin-left: 1cm;
     font-size: 35px;
 }
-
