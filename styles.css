@@ -22,6 +22,19 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    
+    font-size: 45px;
+    font-size: 22px;
+    text-align: left;
+     
+    line-height: 30px;
+    position: absolute;
+    right: 550px;
+    top: 200px; 
+    left: 20px;
+}
+
 h3 {
 
     
@@ -128,4 +141,15 @@ footer {
     width: 100%;
     padding: 20px 0;
 
+}
+#imgegg{
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 286px;
+    width: 223px;
+    position:sticky;
+}
+#liens {
+    color: #00ffff;
 }
