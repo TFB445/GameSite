@@ -1,6 +1,6 @@
 body {
-    font-family: Stencil Std, fantasy;
-    background-color: #404dc5;
+    font-family: 'Anton',sans-serif;;
+    
     color: #f2f6f5;
     margin: 0;
     padding: 0;
@@ -10,8 +10,8 @@ body {
 
 
 header {
-    background-color: #1c698c;
-    color: #f3eeee;
+    background: linear-gradient(to left, #404dc5, #0e384b);
+   color: #f3eeee;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} 
 
 h1 {
     text-align: left;
@@ -65,7 +65,7 @@ button {
     background: #1c698c;
     padding: 12px 25px;
     border: none;
-    border-radius: 30px;  /* Arrondi */
+    border-radius: 30px;  
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
